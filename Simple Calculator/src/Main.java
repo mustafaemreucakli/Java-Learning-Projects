@@ -30,6 +30,9 @@ public class Main {
                 break;
             case 5:
                 result = number1 % number2;
+                break;
+            default:
+                System.out.println("You have not entered a valid transaction type. Please enter a valid transaction type.");
         }
 
         System.out.println("Result : " + result);
